@@ -1,3 +1,6 @@
+#include <cstdlib>
+#include <cstring>
+
 #include "item.h"
 
 Item::Item(const string& n, float p, int size) :

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 #include "catalog.h"
 #include "string.h"
 #include "item.h"
