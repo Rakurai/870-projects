@@ -1,0 +1,40 @@
+Name: Jason Anderson
+Clemson Email Address: jwa2@clemson.edu
+
+Project no: 2
+Project due date: 9-25-15
+
+Project description:
+
+For the clock, I chose to completely separate the sumOfTicks from the actual clock ticks.  I also changed pause/unpause to togglePause, and made it a Meyers singleton.  F3 will toggle slow motion, and P toggles pause.  I
+also used a vector of timing samples for smoothing the animation, to maintain a consistent FPS.
+
+I took a photo of Dr. Malloy's sushi restaurant, and traced it using Photoshop to make the line drawing.  I
+created the California rolls and chopsticks by hand.  Both use the same vector of Sprite objects for drawing.
+
+I was having some trouble with the Makefile on my Mac, so rather than mess it up for the grader, I made a new one.
+The original Makefile is in Makefile.old.
+
+Everything else is as per instructions.
+
+
+
+--------------------------------
+| Clock         |              |
+--------------------------------
+| Sprites       |              |
+--------------------------------
+| Singleton     |              |
+--------------------------------
+| game.xml      |              |
+--------------------------------
+| Leaks         |              |
+--------------------------------
+| F4/frames     |              |
+--------------------------------
+| Submission    |              |
+--------------------------------
+| README        |              |
+--------------------------------
+
+

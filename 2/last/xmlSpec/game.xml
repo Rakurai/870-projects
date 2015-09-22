@@ -1,0 +1,71 @@
+<?xml version = "1.0"?>
+<GameData>
+<screenTitle>Sushi 'SPLOSION!!!</screenTitle>
+<screenName>Jason Anderson</screenName>
+<maxStringSize>50</maxStringSize>
+<username>jwa2</username>
+<frameMax>200</frameMax>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<numSushi>10</numSushi>
+<numChopsticks>10></numChopsticks>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>854</width>
+  <height>480</height>
+</world>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+
+<background>
+  <file>images/restaurant.jpg</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>480</height>
+  <startLoc x="0" y="0"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>false</transparency>
+</background>
+
+<sushi>
+  <file>images/sushi.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>30</width>
+  <height>30</height>
+  <startLoc x="200" y="200"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</sushi>
+
+<chopsticks>
+  <file>images/chopsticks.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>60</height>
+  <startLoc x="200" y="200"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+</chopsticks>
+
+</GameData>

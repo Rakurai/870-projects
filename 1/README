@@ -1,0 +1,11 @@
+name: Jason Anderson
+email: jwa2@clemson.edu
+
+Just a singleton Catalog class that stores Items in a vector.
+  * Item has a string name, some heap bytes, and is canonical.
+  * Item also overloads the output operator.
+  * string is mostly like the given version, but uses a Meyers assignment
+    and overloads the == operator for comparisons
+  * Catalog allows searching by name or price of items, and fills a vector passed
+    by reference rather than returning a heaped vector (I don't like allocating
+    memory that the caller is responsible for deleting if I can help it)
